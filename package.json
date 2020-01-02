@@ -13,6 +13,20 @@
         "react-scripts": "3.3.0",
         "styled-components": "^4.4.1"
     },
+    "jest": {
+        "coverageThreshold": {
+            "global": {
+                "branches": 95,
+                "functions": 95,
+                "lines": 95,
+                "statements": 95
+            }
+        },
+        "coverageReporters": [
+            "html",
+            "text"
+        ]
+    },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
@@ -30,5 +44,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "jest": "^24.9.0"
     }
 }
