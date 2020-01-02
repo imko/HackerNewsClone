@@ -1,0 +1,1 @@
+export const convertTimestamp = timestamp => new Date(timestamp * 1000); 
